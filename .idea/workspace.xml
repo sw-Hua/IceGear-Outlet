@@ -56,7 +56,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.OrderServer">
+    <configuration name="OrderServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ntu.OrderServer" />
+      <module name="shop-order-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ntu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shop-product-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.ntu.ProductServer" />
@@ -72,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderServer" />
         <item itemvalue="Spring Boot.ProductServer" />
       </list>
     </recent_temporary>
@@ -93,7 +107,7 @@
       <workItem from="1702488168112" duration="1241000" />
       <workItem from="1702493801700" duration="2000" />
       <workItem from="1702493813001" duration="4737000" />
-      <workItem from="1702544510815" duration="2218000" />
+      <workItem from="1702544510815" duration="5103000" />
     </task>
     <servers />
   </component>
