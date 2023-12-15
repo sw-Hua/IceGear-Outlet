@@ -1,6 +1,7 @@
 package org.ntu.service.imp;
 
 import com.alibaba.fastjson.JSON;
+import org.ntu.feign.ProductFeignApi;
 import lombok.extern.slf4j.Slf4j;
 import org.ntu.dao.OrderDao;
 import org.ntu.domain.Order;
@@ -9,7 +10,6 @@ import org.ntu.service.IOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 @Service
 @Slf4j
@@ -17,8 +17,9 @@ public class OrderServiceImpl implements IOrderService{
 
     @Autowired
     private OrderDao orderDao;
+
     @Autowired
-    private RestTemplate restTemplate;
+    private ProductFeignApi productFeignApi;
 
     @Autowired
     private DiscoveryClient discoveryClient; // 从nacos中获取服务列表（地址）
@@ -30,7 +31,7 @@ public class OrderServiceImpl implements IOrderService{
 
         String url = "http://product-service/product/" + productId;
         log.info("服务的地址是:{}", url);
-        Product product = restTemplate.getForObject(url, Product.class);
+        Product product = productFeignApi.findByPid(productId);
 
         log.info("查询到{}号商品的信息,内容是:{}", productId,
                 JSON.toJSONString(product));
