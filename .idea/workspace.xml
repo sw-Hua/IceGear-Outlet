@@ -16,10 +16,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -48,6 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/huasongwen/IdeaProjects/shop-parent&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,6 +60,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.OrderServer">
     <configuration name="OrderServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ntu.OrderServer" />
@@ -66,6 +77,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="shop-parent" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="shop-parent" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,7 +161,16 @@
       <workItem from="1702488168112" duration="1241000" />
       <workItem from="1702493801700" duration="2000" />
       <workItem from="1702493813001" duration="4737000" />
-      <workItem from="1702544510815" duration="23505000" />
+      <workItem from="1702544510815" duration="23864000" />
+      <workItem from="1702713685796" duration="23000" />
+      <workItem from="1702713721776" duration="137000" />
+      <workItem from="1702713869703" duration="19000" />
+      <workItem from="1702713912772" duration="12000" />
+      <workItem from="1702715679448" duration="374000" />
+      <workItem from="1702716071692" duration="17000" />
+      <workItem from="1702716269257" duration="48000" />
+      <workItem from="1702716356608" duration="2072000" />
+      <workItem from="1702731582089" duration="2610000" />
     </task>
     <servers />
   </component>
