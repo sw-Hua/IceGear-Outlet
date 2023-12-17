@@ -67,7 +67,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServer">
+  <component name="RunManager" selected="Spring Boot.ProductServer8082">
     <configuration name="OrderServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ntu.OrderServer" />
       <module name="shop-order-server" />
@@ -171,6 +171,7 @@
       <workItem from="1702716269257" duration="48000" />
       <workItem from="1702716356608" duration="2072000" />
       <workItem from="1702731582089" duration="2610000" />
+      <workItem from="1702786471323" duration="4660000" />
     </task>
     <servers />
   </component>

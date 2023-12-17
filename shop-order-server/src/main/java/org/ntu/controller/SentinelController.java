@@ -17,4 +17,9 @@ public class SentinelController {
     public String sentinel2() throws InterruptedException{
         return "sentinel2";
     }
+
+    @RequestMapping("/sentinel3")
+    public String sentinel3(){
+        return "sentinel3";
+    }
 }
